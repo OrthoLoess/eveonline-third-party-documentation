@@ -1,0 +1,23 @@
+site_name: EVE Online Third-Party Developer Documentation
+pages:
+- ['index.md', 'Home']
+- ['sso/authentication.md', 'SSO', 'Authentication Flow']
+- ['sso/refreshtokens.md', 'SSO', 'Refresh Tokens']
+- ['sso/implicitflow.md', 'SSO', 'SSO For Browser Apps']
+- ['sso/nonbrowserapps.md', 'SSO', 'Non-Browser Apps']
+- ['crest/intro.md', 'CREST', 'Introduction']
+- ['crest/authentication.md', 'CREST', 'Authentication and Scopes']
+- ['crest/walkingresources.md', 'CREST', 'Walking Resources']
+- ['crest/versioning.md', 'CREST', 'Versioning']
+- ['xmlapi/intro.md', 'XML API', 'Introduction']
+- ['xmlapi/authentication.md', 'XML API', 'Authentication']
+- ['xmlapi/caching.md', 'XML API', 'Caching']
+- ['xmlapi/endpoints.md', 'XML API', 'Endpoints']
+- ['sde/intro.md', 'Static Data Export', 'Introduction']
+- ['sde/included.md', 'Static Data Export', 'Whats Included']
+- ['sde/tableref.md', 'Static Data Export', 'Table Reference']
+- ['sde/conversions.md', 'Static Data Export', 'Conversions']
+- ['sde/tips.md', 'Static Data Export', 'Tips']
+- ['imageserver/intro.md', 'Image Server', 'Introduction']
+- ['imageserver/iec.md', 'Image Server', 'Image Export Collection']
+theme: readthedocs
