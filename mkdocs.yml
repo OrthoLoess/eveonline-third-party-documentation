@@ -20,5 +20,5 @@ pages:
 - ['sde/tips.md', 'Static Data Export', 'Tips']
 - ['imageserver/intro.md', 'Image Server', 'Introduction']
 - ['imageserver/iec.md', 'Image Server', 'Image Export Collection']
-- ['imageserve.md', 'Image Server Test']
+- ['imageserver.md', 'Image Server Test']
 theme: readthedocs
