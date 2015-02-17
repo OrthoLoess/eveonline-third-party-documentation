@@ -1,10 +1,11 @@
 site_name: EVE Online Third-Party Developer Documentation
 pages:
 - ['index.md', 'Home']
-- ['sso/authentication.md', 'SSO', 'Authentication Flow']
-- ['sso/refreshtokens.md', 'SSO', 'Refresh Tokens']
-- ['sso/implicitflow.md', 'SSO', 'SSO For Browser Apps']
-- ['sso/nonbrowserapps.md', 'SSO', 'Non-Browser Apps']
+- ['sso/intro.md', 'Single Sign-On (SS0)', 'Introduction']
+- ['sso/authentication.md', 'Single Sign-On (SS0)', 'Authentication Flow']
+- ['sso/refreshtokens.md', 'Single Sign-On (SS0)', 'Refresh Tokens']
+- ['sso/implicitflow.md', 'Single Sign-On (SS0)', 'SSO For Browser Apps']
+- ['sso/nonbrowserapps.md', 'Single Sign-On (SS0)', 'Non-Browser Apps']
 - ['crest/intro.md', 'CREST', 'Introduction']
 - ['crest/authentication.md', 'CREST', 'Authentication and Scopes']
 - ['crest/walkingresources.md', 'CREST', 'Walking Resources']
