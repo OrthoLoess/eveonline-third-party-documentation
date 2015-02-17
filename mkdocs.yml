@@ -6,6 +6,7 @@ pages:
 - ['sso/refreshtokens.md', 'Single Sign-On (SS0)', 'Refresh Tokens']
 - ['sso/implicitflow.md', 'Single Sign-On (SS0)', 'SSO For Browser Apps']
 - ['sso/nonbrowserapps.md', 'Single Sign-On (SS0)', 'Non-Browser Apps']
+- ['sso/obtaincharacterid.md', 'Single Sign-On (SS0)', 'Obtain Character ID']
 - ['crest/intro.md', 'CREST', 'Introduction']
 - ['crest/authentication.md', 'CREST', 'Authentication and Scopes']
 - ['crest/walkingresources.md', 'CREST', 'Walking Resources']
