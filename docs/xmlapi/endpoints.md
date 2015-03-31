@@ -10,30 +10,47 @@ accessMask = 33554432
 ## CallList
 
 # char
+******
+
 ## AccountBalance
-accessMask = 1
+``/char/AccountBalance.xml.aspx``  
+
+* __Access mask:__ 1
 
 ## AssetList
-accessMask = 2
-### Paramaters
-flat:bool(0/1)
+``/char/AssetList.xml.aspx``
+
+* __Access mask:__ 2
+* __Paramaters:__
+    * __flat:__ bool (0/1)
 
 ## Blueprints
-accessMask = 2
+``/char/Blueprints.xml.aspx``
+
+* __Access mask:__ 2
 
 ## CalendarEventAttendees
-accessMask = 4
-### Paramaters
-eventIDs, ids, ',' seperated list
+``/char/CalendarEventAttendees.xml.aspx``
+
+* __Access mask:__ 4
+* __Paramaters:__
+    * __eventIDs:__ comma seperated list
+    * __ids:__ comma seperated list
 
 ## CharacterSheet
-accessMask = 8
+``/char/CharacterSheet.xml.aspx``
+
+* __Access mask:__ 8
 
 ## ContactList
-accessMask = 16
+``/char/ContactList.xml.aspx``
+
+* __Access mask:__ 16
 
 ## ContactNotifications
-accessMask = 32
+``/char/ContactNotifications.xml.aspx``
+
+* __Access mask:__ 32
 
 ## ContractBids
 accessMask = 67108864
