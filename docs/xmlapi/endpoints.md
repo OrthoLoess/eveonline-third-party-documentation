@@ -29,6 +29,16 @@ accessMask = 33554432
 
 * __Access mask:__ 2
 
+Eample data: (this is test data, need to have a think about inlcuding cachedUntil for example data)
+```xml
+<result>
+    <rowset name="blueprints" key="itemID" columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs">
+        <row itemID="1000000029372" locationID="60014929" typeID="11568" typeName="Avatar Blueprint" flagID="4" quantity="497" timeEfficiency="0" materialEfficiency="0" runs="-1"/>
+        <row itemID="1000000029377" locationID="60014929" typeID="33876" typeName="Prophecy Blood Raiders Edition Blueprint" flagID="4" quantity="-2" timeEfficiency="0" materialEfficiency="0" runs="20000"/>
+    </rowset>
+</result>
+```
+
 ## CalendarEventAttendees
 ``/char/CalendarEventAttendees.xml.aspx``
 
