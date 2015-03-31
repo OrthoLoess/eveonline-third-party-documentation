@@ -29,7 +29,86 @@ accessMask = 33554432
 
 * __Access mask:__ 2
 
-Eample data: (this is test data, need to have a think about inlcuding cachedUntil for example data)
+Data:
+<table border="1">
+    <tbody>
+        <tr>
+            <td>blueprints</td>
+            <td><strong>rowset</strong></td>
+            <td></td>
+            <td>Rowset containing 1 row per blueprint.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>itemID</td>
+            <td><strong>long</strong></td>
+            <td>The actual item ID.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>locationID</td>
+            <td><strong>long</strong></td>
+            <td>The location ID of where  the blueprint is located.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>typeID</td>
+            <td><strong>int</strong></td>
+            <td>Type ID of the blueprint.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>typeName</td>
+            <td><strong>int</strong></td>
+            <td>English name for the type of blueprint.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>flagID</td>
+            <td><strong>int</strong></td>
+            <td>Flag for where the item is located.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>quantity</td>
+            <td><strong>int</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>timeEfficiency</td>
+            <td><strong>int</strong></td>
+            <td>The TE level of the blueprint.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>materialEfficiency</td>
+            <td><strong>int</strong></td>
+            <td>The ME level of the blueprint.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>runs</td>
+            <td><strong>int</strong></td>
+            <td>The number of remaining runs for the blueprint. -1 for BPO.</td>
+        </tr>
+    </tbody>
+</table>
+
+|            |                    |          |                                                             |
+|------------|--------------------|----------|-------------------------------------------------------------|
+| blueprints | __rowset__         |          | Rowset containing 1 row per blueprint.                      |
+|            | itemID             | __long__ | The actual item ID.                                         |
+|            | locationID         | __long__ | The location ID of where  the blueprint is located.         |
+|            | typeID             | __int__  | Type ID of the blueprint.                                   |
+|            | typeName           | __int__  | English name for the type of blueprint.                     |
+|            | flagID             | __int__  | Flag for where the item is located.                         |
+|            | quantity           | __int__  |                                                             |
+|            | timeEfficiency     | __int__  | The TE level of the blueprint.                              |
+|            | materialEfficiency | __int__  | The ME level of the blueprint.                              |
+|            | runs               | __int__  | The number of remaining runs for the blueprint. -1 for BPO. |
+
+Eample response: (this is test data, need to have a think about inlcuding cachedUntil for example data)
 ```xml
 <result>
     <rowset name="blueprints" key="itemID" columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs">
