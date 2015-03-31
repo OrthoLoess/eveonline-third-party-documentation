@@ -34,8 +34,8 @@ accessMask = 33554432
 
 * __Access mask:__ 4
 * __Paramaters:__
-    * __eventIDs:__ comma seperated list
-    * __ids:__ comma seperated list
+    * __eventIDs:__ comma seperated list of event IDs
+    * __ids:__ comma seperated list of event IDs
 
 ## CharacterSheet
 ``/char/CharacterSheet.xml.aspx``
