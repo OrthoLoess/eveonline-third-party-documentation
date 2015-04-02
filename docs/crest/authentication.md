@@ -1,10 +1,17 @@
-The flow available to third-party developers is the Authorization Code Grant documented [here](http://tools.ietf.org/html/rfc6749#section-4.1).
+# Authenticated CREST
+When designing your application you will need to decide what information you require from CREST and if any of that information requires authentication.
 
-For those users that don't feel like reading the standard the authentication is really just a series of HTTPS requests and redirects described in this document.
+Currently most data is available from public crest, so does not require authentication. Anything that does will be listed under a **scope**
 
-## Registering for the SSO
-Registering for the SSO is as simple as creating a new application on the Developers web site and selecting the Authentication Only option under connection type.
+Once you have decided what **scopes** you require for your app, you will need to follow the instructions in the [SSO section](../sso/intro) to register your app on the dev site and then to get an **access token**.
 
-## Implementing the SSO
-### Redirect to the SSO
-When a user clicks the "login" button on a your website you need to redirect the user with HTTP 302 redirect to https://login.eveonline.com/oauth/authorize with the following query string parameters:
+# Scopes
+When designing your application you will need to decide what information you require from CREST and if any of that information requires authentication.
+
+Currently most data is available from public crest, so does not require authentication. Anything that is not public will have a scope attached. In order to access these endpoints, your app must have been set up with that scope enabled on the dev site and you must have requested that scope when getting your access token from the SSO.
+
+### publicData
+The first scope released. It allows access to live market orders data for any region. CCP FoxFour has said that this data will probably moved to Public CREST soon, so this scope may well become deprecated.
+
+### characterStatisticsRead - SISI
+Currently only available on SISI. Allows access to historical character statistics, broken down by year. This was announced in the EVE Keynote at FanFest 2015.
