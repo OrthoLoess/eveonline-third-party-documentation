@@ -5,9 +5,17 @@ Documentation for EVE Online third-party developers. This covers things like the
 
 # Developing
 ## Setup
-virtualenv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+You will need to have python, pip and virtualenv installed (install virtualenv using pip) then run the following commands from inside the repo directory:
+
+### Windows
+    virtualenv venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
+
+### Linux/mac
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 
 ## Running
-mkdocs serve
+    mkdocs serve
