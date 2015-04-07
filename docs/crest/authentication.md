@@ -20,3 +20,13 @@ Currently only available on SISI. Allows access to historical character statisti
 Once you have a valid access token from the SSO, you can make call to authenticated crest by adding an Authorization header and using the auth'd crest endpoint.
 
     Authorization: Bearer [Your access token]
+
+An authenticated call that lists all regions would look like this (note that the url here should have been obtained dynamically from the root endpoint, rather than being hardcoded):
+
+    POST https://crest-tq.eveonline.com/regions/ HTTP/1.1
+    
+    Authorization: Bearer bG9...ZXQ=
+    Accept: application/vnd.ccp.eve.RegionCollection-v1+json
+    Host: crest-tq.eveonline.com
+    
+For information on the Accept header used here, see the [Versioning](crest/versioning) section.
