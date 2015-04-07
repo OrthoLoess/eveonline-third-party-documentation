@@ -15,3 +15,8 @@ The first scope released. It allows access to live market orders data for any re
 
 ### characterStatisticsRead - SISI
 Currently only available on SISI. Allows access to historical character statistics, broken down by year. This was announced in the EVE Keynote at FanFest 2015.
+
+# Using your access token
+Once you have a valid access token from the SSO, you can make call to authenticated crest by adding an Authorization header and using the auth'd crest endpoint.
+
+    Authorization: Bearer [Your access token]
