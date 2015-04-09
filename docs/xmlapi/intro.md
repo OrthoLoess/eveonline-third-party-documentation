@@ -2,11 +2,11 @@
 The EVE XML API is an HTTP **read only** API to the EVE Universe. The API has both publicly accessible information and private character/corporation information. Using the API does not require any kind of registration, simply point your HTTP requests to the correct locations, or use one of the many third-party libraries, and away you go.
 
 ## Accessing The API
-As the XML API is an HTTP API you can access it by simply pointing your browser at the correct endpoints. An example of this would be: ```https://api.eveonline.com/eve/CharacterInfo.xml.aspx?characterID={character_id_here}```
+As the XML API is an HTTP API you can access it by simply pointing your browser at the correct endpoints. An example of this would be: `https://api.eveonline.com/eve/CharacterInfo.xml.aspx?characterID={character_id_here}`
 
 The above will take you to the public character information for the specific character ID.
 
-If you would like to access private information you will need an API key and can then do it like so: ```https://api.eveonline.com/corp/IndustryJobsHistory.xml.aspx?keyID={api_key_id_here}&vCode={api_verification_code_here}```
+If you would like to access private information you will need an API key and can then do it like so: `https://api.eveonline.com/corp/IndustryJobsHistory.xml.aspx?keyID={api_key_id_here}&vCode={api_verification_code_here}`
 
 * Base URL: [https://api.eveonline.com/](https://api.eveonline.com/)
 * API Keys: [https://community.eveonline.com/support/api-key](https://community.eveonline.com/support/api-key)
