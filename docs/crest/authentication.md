@@ -15,3 +15,18 @@ The first scope released. It allows access to live market orders data for any re
 
 ### characterStatisticsRead - SISI
 Currently only available on SISI. Allows access to historical character statistics, broken down by year. This was announced in the EVE Keynote at FanFest 2015.
+
+# Using your access token
+Once you have a valid access token from the SSO, you can make calls to authenticated CREST by adding an Authorization header and using the auth'd crest endpoint.
+
+    Authorization: Bearer [Your access token]
+
+An authenticated call that lists all regions would look like this (note that the url here should have been obtained dynamically from the root endpoint, rather than being hardcoded):
+
+    POST https://crest-tq.eveonline.com/regions/ HTTP/1.1
+    
+    Authorization: Bearer bG9...ZXQ=
+    Accept: application/vnd.ccp.eve.RegionCollection-v1+json
+    Host: crest-tq.eveonline.com
+    
+For information on the Accept header used here, see the [Versioning](crest/versioning) section.
